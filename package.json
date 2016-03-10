@@ -1,0 +1,29 @@
+{
+  "name": "cheerio-or-jquery",
+  "version": "1.0.0",
+  "description": "jQuery client-side or Cheerio server-side",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "latest",
+    "is-browser": "latest",
+    "extend": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campsi/cheerio-or-jquery.git"
+  },
+  "keywords": [
+    "cheerio",
+    "jquery"
+  ],
+  "author": "Romain Bessuges <romainbessuges@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/campsi/cheerio-or-jquery/issues"
+  },
+  "homepage": "https://github.com/campsi/cheerio-or-jquery#readme"
+}
