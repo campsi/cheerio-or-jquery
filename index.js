@@ -8,7 +8,9 @@ if (!isBrowser) {
     extend = require('extend');
 
     ['on', 'off', 'bind'].forEach(function (methodName) {
-        cheerio.prototype[methodName] = new Function();
+        cheerio.prototype[methodName] = function(){
+            return this;
+        }
     });
 
     cheerio.prototype.prop = cheerio.prototype.attr;
