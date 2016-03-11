@@ -15,7 +15,7 @@ if (!isBrowser) {
     cheerio.prototype.extend = extend;
 
     cheerio.prototype.toggle = function (force) {
-        this.css('dislay', (force === false) ? 'none' : 'inherit');
+        this.css('display', (force === false) ? 'none' : 'inherit');
     };
 
     cheerio.prototype.hide = function () {
