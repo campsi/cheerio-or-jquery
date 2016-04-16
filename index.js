@@ -1,6 +1,7 @@
 var isBrowser = require('is-browser');
 var extend;
 var cheerio;
+var instance;
 
 if (!isBrowser) {
 
@@ -27,6 +28,10 @@ if (!isBrowser) {
     cheerio.prototype.show = function () {
         this.toggle(true);
     };
+
+    instance = require('cheerio').load('');
+    extend(instance, require('najax'));
+
 }
 
-module.exports = (isBrowser) ? window.jQuery : require('cheerio').load('');
+module.exports = (isBrowser) ? window.jQuery : instance;
