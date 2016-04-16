@@ -6,7 +6,8 @@
   "dependencies": {
     "cheerio": "latest",
     "is-browser": "latest",
-    "extend": "latest"
+    "extend": "latest",
+    "najax": "latest"
   },
   "devDependencies": {},
   "scripts": {
