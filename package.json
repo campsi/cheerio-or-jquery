@@ -20,7 +20,8 @@
   },
   "keywords": [
     "cheerio",
-    "jquery"
+    "jquery",
+    "isomorphic"
   ],
   "author": "Romain Bessuges <romainbessuges@gmail.com>",
   "license": "MIT",
