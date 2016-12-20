@@ -4,11 +4,11 @@
   "description": "jQuery client-side or Cheerio server-side",
   "main": "index.js",
   "dependencies": {
-    "cheerio": "latest",
-    "extend": "latest",
-    "is-browser": "latest",
+    "cheerio": "^0.22.0",
+    "extend": "^3.0.0",
+    "is-browser": "^2.0.1",
     "jquery": "^3.1.1",
-    "najax": "latest"
+    "najax": "^0.7.1"
   },
   "devDependencies": {},
   "scripts": {
