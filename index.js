@@ -34,4 +34,4 @@ if (!isBrowser) {
 
 }
 
-module.exports = (isBrowser) ? window.jQuery : instance;
+module.exports = (isBrowser) ? require('jquery') : instance;
